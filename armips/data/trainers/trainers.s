@@ -222,7 +222,7 @@ trainerdata 6, "Keith"
         ivs 0
         abilityslot 0
         level 24
-        monwithform SPECIES_ARCANINE
+        monwithform SPECIES_ARCANINE, 1
         ballseal 0
     endparty
 
@@ -1874,7 +1874,7 @@ trainerdata 49, "Albert"
         abilityslot 0
         level 16
         pokemon SPECIES_GLAMEOW
-        ballseal 
+        ballseal 0
     endparty
 
 trainerdata 50, "Abe"
