@@ -2062,7 +2062,7 @@ trainerdata 55, "Neal"
         ivs 0
         abilityslot 0
         level 11
-        pokemon SPECIES_TREEKO
+        pokemon SPECIES_TREECKO
         ballseal 0
     endparty
 
