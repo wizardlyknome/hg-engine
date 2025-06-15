@@ -113,7 +113,7 @@ const u16 *_0210FA3C[] = {
 /* Cherrygrove City 2nd Clerk -> Violet City 2nd Clerk */
 .org 0x020FBA54
 .halfword ITEM_HEAL_BALL
-.halfword ITEM_INFINITE_CANDY
+.halfword ITEM_NET_BALL
 .halfword ITEM_QUICK_BALL
 
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
