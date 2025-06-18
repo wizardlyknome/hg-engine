@@ -273,7 +273,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_BALL] =
 {
-    .price = 200,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
