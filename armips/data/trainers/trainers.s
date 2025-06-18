@@ -8446,7 +8446,7 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 79
         pokemon SPECIES_CHARIZARD
-        item ITEM_CHARIZADITE_X
+        item ITEM_CHARIZARDITE_X
         move MOVE_SHADOW_CLAW
         move MOVE_FIRE_BLAST
         move MOVE_DRAGON_CLAW
@@ -14535,7 +14535,7 @@ trainerdata 400, "Dana"
         abilityslot 0
         level 36
         pokemon SPECIES_GALVANTULA
-        move MOVE_STICY_WEB
+        move MOVE_STICKY_WEB
         move MOVE_ELECTROWEB
         move MOVE_CHARGE_BEAM
         move MOVE_THUNDER_WAVE
@@ -25327,7 +25327,7 @@ trainerdata 706, "Proton"
         level 60
         pokemon SPECIES_ENTEI
         move MOVE_EXTREME_SPEED
-        move MOVE_SCARED_FIRE
+        move MOVE_SACRED_FIRE
         move MOVE_EARTHQUAKE
         move MOVE_LAVA_PLUME
         ballseal 0
