@@ -71,7 +71,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_MAX_REPEL
 .halfword FIVE_BADGES
 
-.halfword ITEM_POKE_DOLL
+.halfword ITEM_RARE_CANDY
 .halfword ZERO_BADGES
 
 /** Special Mart Index - This is not in byte order
@@ -114,7 +114,7 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBA54
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_DUSK_BALL
 
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
 
@@ -253,10 +253,10 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_ICE_STONE
 .halfword ITEM_EVERSTONE
 .halfword ITEM_EVIOLITE
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_SHINY_STONE
+.halfword ITEM_DUSK_STONE
+.halfword ITEM_DAWN_STONE
+.halfword ITEM_LINKING_CORD
 
 /* const u16 _020FBC4E[] = {ITEM_POKE_BALL, ITEM_GREAT_BALL, ITEM_ULTRA_BALL, ITEM_ESCAPE_ROPE, ITEM_POKE_DOLL, ITEM_REPEL, ITEM_SUPER_REPEL, ITEM_MAX_REPEL, ITEM_GRASS_MAIL, ITEM_FLAME_MAIL, ITEM_BUBBLE_MAIL, ITEM_SPACE_MAIL, 0xFFFF}; */
 
