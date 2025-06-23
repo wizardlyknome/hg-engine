@@ -5160,7 +5160,7 @@ trainerdata 140, "Doug"
         ivs 0
         abilityslot 0
         level 80
-        pokemon SPECIES_EXCAVALIER
+        pokemon SPECIES_ESCAVALIER
         ballseal 0
     endparty
 
@@ -5462,7 +5462,7 @@ trainerdata 150, "Sid"
         ivs 0
         abilityslot 0
         level 79
-        pokemon SPECIES_EXCAVALIER
+        pokemon SPECIES_ESCAVALIER
         ballseal 0
     endparty
 
@@ -9280,7 +9280,7 @@ trainerdata 257, "Janine"
         ivs 200
         abilityslot 0
         level 87
-        pokemon SPECIES_GARBORDOR
+        pokemon SPECIES_GARBODOR
         item ITEM_NONE
         move MOVE_ROCK_BLAST
         move MOVE_SLUDGE_BOMB
@@ -13458,7 +13458,7 @@ trainerdata 365, "Tyrone"
         ivs 0
         abilityslot 0
         level 80
-        pokemon SPECIES_COPPERJAH
+        pokemon SPECIES_COPPERAJAH
         ballseal 0
 
         // mon 2
