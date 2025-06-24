@@ -9143,7 +9143,7 @@ trainerdata 255, "Lt. Surge"
         // mon 4
         ivs 200
         abilityslot 0
-        level 82
+        level 81
         pokemon SPECIES_ELECTIVIRE
         item ITEM_SITRUS_BERRY
         move MOVE_EARTHQUAKE
@@ -9156,7 +9156,7 @@ trainerdata 255, "Lt. Surge"
         ivs 200
         abilityslot 0
         level 82
-        pokemon SPECIES_ELECTABUZZ
+        pokemon SPECIES_ZAPDOS
         item ITEM_MAGNET
         move MOVE_THUNDERBOLT
         move MOVE_SHOCK_WAVE
