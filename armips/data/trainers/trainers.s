@@ -387,38 +387,95 @@ trainerdata 10, "Amy & Mimi"
         ballseal 0
     endparty
 
-trainerdata 11, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_KIMONO_GIRL
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+trainerdata 11, "Brendan"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_PKMN_TRAINER_BRENDAN
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 11
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 20
-        pokemon SPECIES_SKIPLOOM
+        level 100
+        pokemon SPECIES_WALREIN
+        item ITEM_NEVER_MELT_ICE
+        move MOVE_ICE_BEAM
+        move MOVE_SURF
+        move MOVE_REST
+        move MOVE_SLEEP_TALK
+        ability ABILITY_THICK_FAT
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 20
-        pokemon SPECIES_VULPIX
+        level 100
+        pokemon SPECIES_MANECTRIC
+        item ITEM_MAGNET
+        move MOVE_THUNDERBOLT
+        move MOVE_THUNDER_WAVE
+        move MOVE_CRUNCH
+        move MOVE_WILD_CHARGE
+        ability ABILITY_STATIC
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 18
-        pokemon SPECIES_SKIPLOOM
+        level 100
+        pokemon SPECIES_GARDEVOIR
+        item ITEM_LIFE_ORB
+        move MOVE_SHADOW_BALL
+        move MOVE_THUNDERBOLT
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        ability ABILITY_SYNCHRONIZE
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_GROUDON
+        item ITEM_RED_ORB
+        move MOVE_FIRE_BLAST
+        move MOVE_SOLAR_BEAM
+        move MOVE_SWORDS_DANCE
+        move MOVE_PRECIPICE_BLADES
+        ability ABILITY_DROUGHT
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_SCEPTILE
+        item ITEM_SCEPTILITE
+        move MOVE_LEAF_BLADE
+        move MOVE_DRAGON_CLAW
+        move MOVE_THUNDER_PUNCH
+        move MOVE_EARTHQUAKE
+        ability ABILITY_UNBURDEN
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_ALTARIA
+        item ITEM_EXPERT_BELT
+        move MOVE_DRAGON_DANCE
+        move MOVE_EARTHQUAKE
+        move MOVE_AERIAL_ACE
+        move MOVE_FLAMETHROWER
+        ability ABILITY_NATURAL_CURE
         ballseal 0
     endparty
 
@@ -660,38 +717,95 @@ trainerdata 18, "Justin"
         ballseal 0
     endparty
 
-trainerdata 19, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_BIKER
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+trainerdata 19, "May"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_PKMN_TRAINER_MAY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 19
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 100
+        pokemon SPECIES_LUDICOLO
+        item ITEM_NEVER_MELT_ICE
+        move MOVE_ICE_BEAM
+        move MOVE_SURF
+        move MOVE_GIGA_DRAIN
+        move MOVE_TOXIC
+        ability ABILITY_RAIN_DISH
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 100
+        pokemon SPECIES_MANECTRIC
+        item ITEM_MAGNET
+        move MOVE_THUNDERBOLT
+        move MOVE_THUNDER_WAVE
+        move MOVE_CRUNCH
+        move MOVE_WILD_CHARGE
+        ability ABILITY_STATIC
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 100
+        pokemon SPECIES_GARDEVOIR
+        item ITEM_LIFE_ORB
+        move MOVE_HYPNOSIS
+        move MOVE_THUNDERBOLT
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        ability ABILITY_SYNCHRONIZE
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_KYOGRE
+        item ITEM_BLUE_ORB
+        move MOVE_ICE_BEAM
+        move MOVE_THUNDER
+        move MOVE_CALM_MIND
+        move MOVE_ORIGIN_PULSE
+        ability ABILITY_DRIZZLE
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_BLAZIKEN
+        item ITEM_BLAZIKENITE
+        move MOVE_SKY_UPPERCUT
+        move MOVE_BLAZE_KICK
+        move MOVE_EARTHQUAKE
+        move MOVE_SWORDS_DANCE
+        ability ABILITY_SPEED_BOOST
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_FLYGON
+        item ITEM_EXPERT_BELT
+        move MOVE_EARTHQUAKE
+        move MOVE_FLY
+        move MOVE_DRAGON_CLAW
+        move MOVE_FLAMETHROWER
+        ability ABILITY_SAND_FORCE
         ballseal 0
     endparty
 
@@ -1827,24 +1941,95 @@ trainerdata 39, "Eugene"
         ballseal 0
     endparty
 
-trainerdata 40, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SUPER_NERD
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+trainerdata 40, "Steven"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_CHAMPION_STEVEN
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 40
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 20
-        pokemon SPECIES_GRIMER
+        level 100
+        pokemon SPECIES_SKARMORY
+        item ITEM_SMOOTH_ROCK
+        move MOVE_SANDSTORM
+        move MOVE_STEALTH_ROCK
+        move MOVE_ROOST
+        move MOVE_BRAVE_BIRD
+        ability ABILITY_STURDY
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_AGGRON
+        item ITEM_FOCUS_SASH
+        move MOVE_HEAD_SMASH
+        move MOVE_HEAVY_SLAM
+        move MOVE_EARTHQUAKE
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_ROCK_HEAD
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_CLAYDOL
+        item ITEM_LIGHT_CLAY
+        move MOVE_LIGHT_SCREEN
+        move MOVE_EARTHQUAKE
+        move MOVE_PSYCHIC
+        move MOVE_REFLECT
+        ability ABILITY_LEVITATE
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_AERODACTYL
+        item ITEM_LIFE_ORB
+        move MOVE_STONE_EDGE
+        move MOVE_EARTHQUAKE
+        move MOVE_AQUA_TAIL
+        move MOVE_BRAVE_BIRD
+        ability ABILITY_ROCK_HEAD
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_DIANCIE
+        item ITEM_ASSAULT_VEST
+        move MOVE_MOONBLAST
+        move MOVE_EARTH_POWER
+        move MOVE_REFLECT
+        move MOVE_DIAMOND_STORM
+        ability ABILITY_CLEAR_BODY
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_METAGROSS
+        item ITEM_METAGROSSITE
+        move MOVE_EARTHQUAKE
+        move MOVE_METEOR_MASH
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_HAMMER_ARM
+        ability ABILITY_CLEAR_BODY
         ballseal 0
     endparty
 
@@ -2528,24 +2713,95 @@ trainerdata 62, "Samuel"
         ballseal 0
     endparty
 
-trainerdata 63, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+trainerdata 63, "Cynthia"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_CHAMPION_CYNTHIA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 63
         // mon 0
-        ivs 30
+        ivs 250
         abilityslot 0
-        level 14
-        pokemon SPECIES_KOFFING
+        level 100
+        pokemon SPECIES_ROSERADE
+        item ITEM_WHITE_HERB
+        move MOVE_LEAF_STORM
+        move MOVE_SLUDGE_BOMB
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_SLEEP_POWDER
+        ability ABILITY_TECHNICIAN
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_TOGEKISS
+        item ITEM_SITRUS_BERRY
+        move MOVE_AIR_SLASH
+        move MOVE_ROOST
+        move MOVE_MOONBLAST
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_SERENE_GRACE
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_LUCARIO
+        item ITEM_LIFE_ORB
+        move MOVE_HIGH_JUMP_KICK
+        move MOVE_METEOR_MASH
+        move MOVE_EXTREME_SPEED
+        move MOVE_ICE_PUNCH
+        ability ABILITY_ADAPTABILITY
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_MILOTIC
+        item ITEM_LEFTOVERS
+        move MOVE_SURF
+        move MOVE_ICE_BEAM
+        move MOVE_RECOVER
+        move MOVE_HYPNOSIS
+        ability ABILITY_MARVEL_SCALE
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_GARCHOMP
+        item ITEM_GARCHOMPITE
+        move MOVE_EARTHQUAKE
+        move MOVE_OUTRAGE
+        move MOVE_STONE_EDGE
+        move MOVE_SWORDS_DANCE
+        ability ABILITY_ROUGH_SKIN
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_GIRATINA
+        item ITEM_GRISEOUS_ORB
+        move MOVE_EARTHQUAKE
+        move MOVE_METEOR_MASH
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_HAMMER_ARM
+        ability ABILITY_CONTRARY
         ballseal 0
     endparty
 
@@ -3335,73 +3591,187 @@ trainerdata 86, "Randall"
         ballseal 0
     endparty
 
-trainerdata 87, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SAGE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+trainerdata 87, "Green"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_PKMN_TRAINER_GREEN
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
-    party 87
+    party 11
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 22
-        pokemon SPECIES_HAUNTER
+        level 100
+        pokemon SPECIES_GENGAR
+        item ITEM_FOCUS_SASH
+        move MOVE_SHADOW_BALL
+        move MOVE_FOCUS_BLAST
+        move MOVE_THUNDERBOLT
+        move MOVE_HYPNOSIS
+        ability ABILITY_LEVITATE
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_KANGASKHAN
+        item ITEM_KANGASKHANITE
+        move MOVE_DOUBLE_EDGE
+        move MOVE_EARTHQUAKE
+        move MOVE_CRUNCH
+        move MOVE_FAKE_OUT
+        ability ABILITY_SCRAPPY
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_VAPOREON
+        item ITEM_LEFTOVERS
+        move MOVE_SURF
+        move MOVE_WISH
+        move MOVE_PROTECT
+        move MOVE_ICE_BEAM
+        ability ABILITY_WATER_ABSORB
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_VICTREEBEL
+        item ITEM_MIRACLE_SEED
+        move MOVE_ENERGY_BALL
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SLEEP_POWDER
+        move MOVE_LEECH_SEED
+        ability ABILITY_CHLOROPHYLL
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_CLEFABLE
+        item ITEM_LIGHT_CLAY
+        move MOVE_MOONBLAST
+        move MOVE_REFLECT
+        move MOVE_ICE_BEAM
+        move MOVE_LIGHT_SCREEN
+        ability ABILITY_MAGIC_GUARD
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_NINETALES
+        item ITEM_HEAT_ROCK
+        move MOVE_NASTY_PLOT
+        move MOVE_WILL_O_WISP
+        move MOVE_SHADOW_BALL
+        move MOVE_FLAMETHROWER
+        ability ABILITY_FLASH_FIRE
         ballseal 0
     endparty
 
-trainerdata 88, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SAGE
-    nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+trainerdata 88, "Wallace"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_CHAMPION_WALLACE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 88
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 100
+        pokemon SPECIES_LUDICOLO
+        item ITEM_BIG_ROOT
+        move MOVE_SURF
+        move MOVE_GIGA_DRAIN
+        move MOVE_ICE_BEAM
+        move MOVE_RAIN_DANCE
+        ability ABILITY_RAIN_DISH
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 100
+        pokemon SPECIES_SHARPEDO
+        item ITEM_SHARPEDONITE
+        move MOVE_WATERFALL
+        move MOVE_ICE_FANG
+        move MOVE_CRUNCH
+        move MOVE_PROTECT
+        ability ABILITY_ROUGH_SKIN
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 100
+        pokemon SPECIES_MILOTIC
+        item ITEM_LEFTOVERS
+        move MOVE_SCALD
+        move MOVE_ICE_BEAM
+        move MOVE_RECOVER
+        move MOVE_MIRROR_COAT
+        ability ABILITY_MARVEL_SCALE
         ballseal 0
 
         // mon 3
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 100
+        pokemon SPECIES_KINGDRA
+        item ITEM_SCOPE_LENS
+        move MOVE_SURF
+        move MOVE_DRAGON_PULSE
+        move MOVE_AGILITY
+        move MOVE_SIGNAL_BEAM
+        ability ABILITY_SNIPER
         ballseal 0
 
         // mon 4
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 100
+        pokemon SPECIES_TENTACRUEL
+        item ITEM_BLACK_SLUDGE
+        move MOVE_SURF
+        move MOVE_SLUDGE_BOMB
+        move MOVE_TOXIC_SPIKES
+        move MOVE_KNOCK_OFF
+        ability ABILITY_CLEAR_BODY
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_EMPOLEON
+        item ITEM_LEFTOVERS
+        move MOVE_SURF
+        move MOVE_FLASH_CANNON
+        move MOVE_GRASS_KNOT
+        move MOVE_AGILITY
+        ability ABILITY_COMPETITIVE
         ballseal 0
     endparty
 
@@ -3983,73 +4353,187 @@ trainerdata 104, "Brian"
         ballseal 0
     endparty
 
-trainerdata 105, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+trainerdata 105, "Wally"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_PKMN_TRAINER_WALLY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 105
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_BULBASAUR
+        level 100
+        pokemon SPECIES_DELPHOX
+        item ITEM_LIFE_ORB
+        move MOVE_PSYCHIC
+        move MOVE_FIRE_BLAST
+        move MOVE_CALM_MIND
+        move MOVE_SHADOW_BALL
+        ability ABILITY_BLAZE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_CHARMANDER
+        level 100
+        pokemon SPECIES_ALTARIA
+        item ITEM_DRAGON_FANG
+        move MOVE_DRAGON_PULSE
+        move MOVE_ROOST
+        move MOVE_HEAL_BELL
+        move MOVE_FLAMETHROWER
+        ability ABILITY_NATURAL_CURE
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_SQUIRTLE
+        level 100
+        pokemon SPECIES_GALLADE
+        item ITEM_GALLADITE
+        move MOVE_SWORDS_DANCE
+        move MOVE_PSYCHO_CUT
+        move MOVE_SACRED_SWORD
+        move MOVE_SECRET_SWORD
+        ability ABILITY_STEADFAST
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_AIR_BALLOON
+        move MOVE_THUNDERBOLT
+        move MOVE_FLASH_CANNON
+        move MOVE_VOLT_SWITCH
+        move MOVE_HIDDEN_POWER
+        ability ABILITY_STURDY
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_ROSERADE
+        item ITEM_BLACK_SLUDGE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_GIGA_DRAIN
+        move MOVE_TOXIC_SPIKES
+        move MOVE_DAZZLING_GLEAM
+        ability ABILITY_NATURAL_CURE
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_AZUMARILL
+        item ITEM_SITRUS_BERRY
+        move MOVE_AQUA_JET
+        move MOVE_PLAY_ROUGH
+        move MOVE_WATERFALL
+        move MOVE_BELLY_DRUM
+        ability ABILITY_HUGE_POWER
         ballseal 0
     endparty
 
-trainerdata 106, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+trainerdata 106, "Ash"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_KALOS_ASH
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 106
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_BULBASAUR
+        level 100
+        pokemon SPECIES_PIKACHU
+        item ITEM_LIGHT_BALL
+        move MOVE_THUNDERBOLT
+        move MOVE_IRON_TAIL
+        move MOVE_QUICK_ATTACK
+        move MOVE_VOLT_TACKLE
+        ability ABILITY_STATIC
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_CHARMANDER
+        level 100
+        pokemon SPECIES_GRENINJA
+        item ITEM_EXPERT_BELT
+        move MOVE_WATER_SHURIKEN
+        move MOVE_NIGHT_SLASH
+        move MOVE_AERIAL_ACE
+        move MOVE_WATERFALL
+        ability ABILITY_BATTLE_BOND
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_SQUIRTLE
+        level 100
+        pokemon SPECIES_NOIVERN
+        item ITEM_DRAGON_FANG
+        move MOVE_AIR_SLASH
+        move MOVE_DRAGON_PULSE
+        move MOVE_FLAMETHROWER
+        move MOVE_U_TURN
+        ability ABILITY_INFILTRATOR
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_GOODRA
+        item ITEM_LEFTOVERS
+        move MOVE_DRAGON_PULSE
+        move MOVE_ICE_BEAM
+        move MOVE_MUDDY_WATER
+        move MOVE_RAIN_DANCE
+        ability ABILITY_HYDRATION
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_TALONFLAME
+        item ITEM_SHARP_BEAK
+        move MOVE_BRAVE_BIRD
+        move MOVE_FLARE_BLITZ
+        move MOVE_ROOST
+        move MOVE_SWORDS_DANCE
+        ability ABILITY_GALE_WINGS
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_HAWLUCHA
+        item ITEM_SITRUS_BERRY
+        move MOVE_HIGH_JUMP_KICK
+        move MOVE_ACROBATICS
+        move MOVE_SWORDS_DANCE
+        move MOVE_ROOST
+        ability ABILITY_UNBURDEN
         ballseal 0
     endparty
 
