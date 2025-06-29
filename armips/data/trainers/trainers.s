@@ -4537,38 +4537,95 @@ trainerdata 106, "Ash"
         ballseal 0
     endparty
 
-trainerdata 107, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+trainerdata 107, "Hilbert"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_TRAINER_HILBERT
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 107
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_BULBASAUR
+        level 100
+        pokemon SPECIES_RESHIRAM
+        item ITEM_WHITE_HERB
+        move MOVE_BLUE_FLARE
+        move MOVE_DRACO_METEOR
+        move MOVE_EARTH_POWER
+        move MOVE_FOCUS_BLAST
+        ability ABILITY_TURBOBLAZE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_CHARMANDER
+        level 100
+        pokemon SPECIES_ARCHEOPS
+        item ITEM_FLYING_GEM
+        move MOVE_ACROBATICS
+        move MOVE_HEAD_SMASH
+        move MOVE_ACCELEROCK
+        move MOVE_AQUA_TAIL
+        ability ABILITY_DEFEATIST
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 10
-        pokemon SPECIES_SQUIRTLE
+        level 100
+        pokemon SPECIES_SAMUROTT
+        item ITEM_WHITE_HERB
+        move MOVE_SHELL_SMASH
+        move MOVE_WATERFALL
+        move MOVE_SACRED_SWORD
+        move MOVE_MEGAHORN
+        ability ABILITY_INTREPID_SWORD
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_ZOROARK
+        item ITEM_LIFE_ORB
+        move MOVE_NIGHT_DAZE
+        move MOVE_FLAMETHROWER
+        move MOVE_FOCUS_BLAST
+        move MOVE_GRASS_KNOT
+        ability ABILITY_ILLUSION
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_MUSHARNA
+        item ITEM_LEFTOVERS
+        move MOVE_MOONBLAST
+        move MOVE_PSYSHOCK
+        move MOVE_PSYCH_UP
+        move MOVE_SHADOW_BALL
+        ability ABILITY_TELEPATHY
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_VOLCARONA
+        item ITEM_LIFE_ORB
+        move MOVE_QUIVER_DANCE
+        move MOVE_GIGA_DRAIN
+        move MOVE_FIRE_BLAST
+        move MOVE_BUG_BUZZ
+        ability ABILITY_FLAME_BODY
         ballseal 0
     endparty
 
@@ -5578,24 +5635,95 @@ trainerdata 137, "Vance"
         ballseal 0
     endparty
 
-trainerdata 138, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_CAMPER
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+trainerdata 138, "Hilda"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_TRAINER_HILDA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 138
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 15
-        pokemon SPECIES_NIDORINO
+        level 100
+        pokemon SPECIES_ZEKROM
+        item ITEM_AIR_BALLOON
+        move MOVE_BOLT_STRIKE
+        move MOVE_OUTRAGE
+        move MOVE_STONE_EDGE
+        move MOVE_DRAGON_DANCE
+        ability ABILITY_TERAVOLT
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_CARRACOSTA
+        item ITEM_SALAC_BERRY
+        move MOVE_SHELL_SMASH
+        move MOVE_STONE_EDGE
+        move MOVE_WATERFALL
+        move MOVE_AQUA_JET
+        ability ABILITY_STURDY
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_SERPERIOR
+        item ITEM_WIDE_LENS
+        move MOVE_LEAF_STORM
+        move MOVE_DRACO_METEOR
+        move MOVE_MAGIC_COAT
+        move MOVE_GLARE
+        ability ABILITY_CONTRARY
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_ZOROARK
+        item ITEM_LIFE_ORB
+        move MOVE_NIGHT_DAZE
+        move MOVE_FLAMETHROWER
+        move MOVE_FOCUS_BLAST
+        move MOVE_GRASS_KNOT
+        ability ABILITY_ILLUSION
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_MUSHARNA
+        item ITEM_LEFTOVERS
+        move MOVE_MOONBLAST
+        move MOVE_PSYSHOCK
+        move MOVE_PSYCH_UP
+        move MOVE_SHADOW_BALL
+        ability ABILITY_TELEPATHY
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_VOLCARONA
+        item ITEM_LIFE_ORB
+        move MOVE_QUIVER_DANCE
+        move MOVE_GIGA_DRAIN
+        move MOVE_FIRE_BLAST
+        move MOVE_BUG_BUZZ
+        ability ABILITY_FLAME_BODY
         ballseal 0
     endparty
 
