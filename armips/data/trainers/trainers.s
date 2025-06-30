@@ -3615,7 +3615,7 @@ trainerdata 87, "Green"
     battletype SINGLE_BATTLE
     endentry
 
-    party 11
+    party 87
         // mon 0
         ivs 250
         abilityslot 0
