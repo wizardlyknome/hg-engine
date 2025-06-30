@@ -6867,7 +6867,7 @@ trainerdata 169, "Maylene"
     battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
-    party 168
+    party 169
         // mon 0
         ivs 50
         abilityslot 0
