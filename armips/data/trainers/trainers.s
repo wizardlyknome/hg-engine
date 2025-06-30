@@ -5819,7 +5819,7 @@ trainerdata 141, "Barry"
         abilityslot 0
         level 100
         pokemon SPECIES_HERACROSS
-        item ITEM_HERACROSSITE
+        item ITEM_HERACRONITE
         move MOVE_MEGAHORN
         move MOVE_CLOSE_COMBAT
         move MOVE_STONE_EDGE
