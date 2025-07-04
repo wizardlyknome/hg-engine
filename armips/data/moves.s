@@ -253,9 +253,9 @@ movedata MOVE_SWORDS_DANCE, "Swords Dance"
 movedata MOVE_CUT, "Cut"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
-    type TYPE_NORMAL
-    accuracy 95
+    basepower 60
+    type TYPE_GRASS
+    accuracy 100
     pp 30
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -1134,7 +1134,7 @@ movedata MOVE_STRENGTH, "Strength"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 80
-    type TYPE_NORMAL
+    type TYPE_FIGHTING
     accuracy 100
     pp 15
     effectchance 0
@@ -4923,11 +4923,11 @@ movedata MOVE_CRUSH_CLAW, "Crush Claw"
     movedescription MOVE_CRUSH_CLAW, "The user slashes the\nfoe with hard and\nsharp claws.\nIt may also lower the\ntarget’s Defense."
 
 movedata MOVE_BLAST_BURN, "Blast Burn"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_HALF
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 130
     type TYPE_FIRE
-    accuracy 90
+    accuracy 95
     pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -4939,11 +4939,11 @@ movedata MOVE_BLAST_BURN, "Blast Burn"
     movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever."
 
 movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_HALF
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 130
     type TYPE_WATER
-    accuracy 90
+    accuracy 95
     pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -5419,11 +5419,11 @@ movedata MOVE_DRAGON_CLAW, "Dragon Claw"
     movedescription MOVE_DRAGON_CLAW, "The user slashes the\nfoe with huge, sharp\nclaws.\n\n"
 
 movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_HALF
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 130
     type TYPE_GRASS
-    accuracy 90
+    accuracy 95
     pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -6909,9 +6909,9 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
 movedata MOVE_ROCK_CLIMB, "Rock Climb"
     battleeffect MOVE_EFFECT_CONFUSE_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
-    type TYPE_NORMAL
-    accuracy 85
+    basepower 80
+    type TYPE_ROCK
+    accuracy 95
     pp 20
     effectchance 20
     target RANGE_SINGLE_TARGET
@@ -7563,7 +7563,7 @@ movedata MOVE_HONE_CLAWS, "Hone Claws"
     movedescription MOVE_HONE_CLAWS, "The user sharpens\nits claws to boost\nits Attack and\nAccuracy."
 
 movedata MOVE_WIDE_GUARD, "Wide Guard"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_PROTECT
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ROCK
@@ -7835,9 +7835,9 @@ movedata MOVE_SYNCHRONOISE, "Synchronoise"
     movedescription MOVE_SYNCHRONOISE, "Using an odd shock\nwave, the user\ndamages same-type\nPokémon in the\nsurrounding area."
 
 movedata MOVE_ELECTRO_BALL, "Electro Ball"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_SP_ATK_HIT
     pss SPLIT_SPECIAL
-    basepower 1
+    basepower 65
     type TYPE_ELECTRIC
     accuracy 100
     pp 10
@@ -14668,7 +14668,7 @@ movedata MOVE_HARD_PRESS, "Hard Press"
     movedescription MOVE_HARD_PRESS, "---"
 
 movedata MOVE_DRAGON_CHEER, "Dragon Cheer"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_SP_ATK_HIT
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DRAGON

@@ -184,7 +184,7 @@ mondata SPECIES_SQUIRTLE, "Squirtle"
 
 mondata SPECIES_WARTORTLE, "Wartortle"
     basestats 59, 63, 80, 58, 65, 80
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 1
@@ -3523,7 +3523,7 @@ mondata SPECIES_LEDIAN, "Ledian"
 
 mondata SPECIES_SPINARAK, "Spinarak"
     basestats 40, 60, 40, 30, 40, 40
-    types TYPE_BUG, TYPE_DARK
+    types TYPE_BUG, TYPE_POISON
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -3544,7 +3544,7 @@ mondata SPECIES_SPINARAK, "Spinarak"
 
 mondata SPECIES_ARIADOS, "Ariados"
     basestats 70, 130, 70, 70, 60, 70
-    types TYPE_BUG, TYPE_DARK
+    types TYPE_BUG, TYPE_POISON
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -3596,7 +3596,7 @@ mondata SPECIES_CHINCHOU, "Chinchou"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_VOLT_ABSORB, ABILITY_ILLUMINATE
+    abilities ABILITY_VOLT_ABSORB, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_CHINCHOU, "It shoots positive and negative\nelectricity between the tips of its\ntwo antennae and zaps its enemies."
@@ -3617,7 +3617,7 @@ mondata SPECIES_LANTURN, "Lanturn"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_VOLT_ABSORB, ABILITY_ILLUMINATE
+    abilities ABILITY_VOLT_ABSORB, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LANTURN, "The light it emits is so bright that\nit can illuminate the sea’s surface\nfrom a depth of over three miles."
@@ -5245,7 +5245,7 @@ mondata SPECIES_TYRANITAR, "Tyranitar"
 
 mondata SPECIES_LUGIA, "Lugia"
     basestats 106, 90, 130, 110, 90, 154
-    types TYPE_PSYCHIC, TYPE_WATER
+    types TYPE_PSYCHIC, TYPE_FLYING
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -11545,7 +11545,7 @@ mondata SPECIES_TEPIG, "Tepig"
 
 mondata SPECIES_PIGNITE, "Pignite"
     basestats 90, 93, 55, 55, 70, 55
-    types TYPE_FIRE, TYPE_FIGHTING
+    types TYPE_FIRE, TYPE_ROCK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -11608,7 +11608,7 @@ mondata SPECIES_OSHAWOTT, "Oshawott"
 
 mondata SPECIES_DEWOTT, "Dewott"
     basestats 75, 75, 60, 60, 83, 60
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -11629,7 +11629,7 @@ mondata SPECIES_DEWOTT, "Dewott"
 
 mondata SPECIES_SAMUROTT, "Samurott"
     basestats 95, 100, 85, 70, 108, 70
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
