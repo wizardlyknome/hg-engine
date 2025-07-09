@@ -9959,12 +9959,12 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 80
-        pokemon SPECIES_RAYQUAZA
+        pokemon SPECIES_REGIDRAGO
         item ITEM_SITRUS_BERRY
-        move MOVE_HURRICANE
-        move MOVE_EXTREME_SPEED
-        move MOVE_DRAGON_CLAW
-        move MOVE_DRAGON_ASCENT
+        move MOVE_DRACO_METEOR
+        move MOVE_DRAGON_ENERGY
+        move MOVE_FLAMETHROWER
+        move MOVE_EARTH_POWER
         ballseal 0
     endparty
 
