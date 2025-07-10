@@ -13728,7 +13728,7 @@ trainerdata 318, "Burt"
 trainerdata 319, "Bill"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FIREBREATHER
-    nummons 3
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -15881,7 +15881,7 @@ trainerdata 386, "Greg"
 trainerdata 387, "Amy & Mimi"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TWINS
-    nummons 2
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
