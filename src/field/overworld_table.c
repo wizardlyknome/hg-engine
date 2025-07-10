@@ -1721,7 +1721,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     NEW_NPC_ENTRY(42), // Saturn
     NEW_NPC_ENTRY(43), // Charon
     NEW_NPC_ENTRY(44), // Cyrus
-    NEW_NPC_ENTRY(44), // Hilda
+    NEW_NPC_ENTRY(45), // Hilda
     { 0xFFFF, 0, 0},
 };
 
