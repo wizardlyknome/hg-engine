@@ -26805,7 +26805,7 @@ trainerdata 700, "Giovanni"
     endparty
 
 trainerdata 701, "Lance"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_CHAMPION
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26820,78 +26820,84 @@ trainerdata 701, "Lance"
         // mon 0
         ivs 250
         abilityslot 0
-        level 72
-        pokemon SPECIES_SALAMENCE
-        item ITEM_LUM_BERRY
-        move MOVE_FLAMETHROWER
-        move MOVE_SHADOW_CLAW
+        level 100
+        pokemon SPECIES_DRAGONITE
+        item ITEM_HEAVY_DUTY_BOOTS
+        move MOVE_DRAGON_DANCE
         move MOVE_DRAGON_CLAW
-        move MOVE_REST
+        move MOVE_FIRE_PUNCH
+        move MOVE_ROOST
+        ability ABILITY_MULTISCALE
         ballseal 0
 
         // mon 1
         ivs 250
         abilityslot 0
-        level 68
-        pokemon SPECIES_GYARADOS
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_ICE_FANG
-        move MOVE_WATERFALL
+        level 100
+        pokemon SPECIES_SALAMENCE
+        item ITEM_SALAMENCITE
         move MOVE_DRAGON_DANCE
+        move MOVE_EARTHQUAKE
+        move MOVE_DRAGON_CLAW
+        move MOVE_ROOST
+        ability ABILITY_INTIMIDATE
         ballseal 0
 
         // mon 2
         ivs 250
         abilityslot 0
-        level 72
+        level 100
         pokemon SPECIES_GARCHOMP
-        item ITEM_NONE
-        move MOVE_SWORDS_DANCE
-        move MOVE_OUTRAGE
+        item ITEM_FOCUS_SASH
+        move MOVE_STEALTH_ROCK
+        move MOVE_DRAGON_CLAW
         move MOVE_EARTHQUAKE
-        move MOVE_ROAR
+        move MOVE_FIRE_FANG
+        ability ABILITY_ROUGH_SKIN
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 0
-        level 73
-        pokemon SPECIES_ALTARIA
-        item ITEM_NONE
-        move MOVE_PERISH_SONG
-        move MOVE_DRAGON_BREATH
-        move MOVE_DOUBLE_TEAM
-        move MOVE_HYPER_BEAM
+        level 100
+        pokemon SPECIES_DRAGAPULT
+        item ITEM_CHOICE_SPECS
+        move MOVE_DRACO_METEOR
+        move MOVE_SHADOW_BALL
+        move MOVE_THUNDERBOLT
+        move MOVE_U_TURN
+        ability ABILITY_INFILTRATOR
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 0
-        level 68
-        pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
-        move MOVE_FLAMETHROWER
-        move MOVE_AIR_SLASH
-        move MOVE_DRAGON_CLAW
-        move MOVE_HYPER_BEAM
+        level 100
+        pokemon SPECIES_HAXORUS
+        item ITEM_LUM_BERRY
+        move MOVE_SWORDS_DANCE
+        move MOVE_OUTRAGE
+        move MOVE_EARTHQUAKE
+        move MOVE_POISON_JAB
+        ability ABILITY_MOLD_BREAKER
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 0
-        level 75
-        pokemon SPECIES_DRAGONITE
-        item ITEM_SITRUS_BERRY
-        move MOVE_FIRE_BLAST
-        move MOVE_SAFEGUARD
-        move MOVE_DRACO_METEOR
-        move MOVE_HYPER_BEAM
+        level 100
+        pokemon SPECIES_RAYQUAZA
+        item ITEM_CHOICE_BAND
+        move MOVE_DRAGON_ASCENT
+        move MOVE_EARTHQUAKE
+        move MOVE_OUTRAGE
+        move MOVE_EXTREME_SPEED
+        ability ABILITY_AIR_LOCK
         ballseal 0
     endparty
 
 trainerdata 702, "Will"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_ELITE_FOUR_WILL
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26906,78 +26912,84 @@ trainerdata 702, "Will"
         // mon 0
         ivs 250
         abilityslot 32
-        level 58
-        pokemon SPECIES_BRONZONG
-        item ITEM_NONE
-        move MOVE_REFLECT
-        move MOVE_PAYBACK
-        move MOVE_GRAVITY
+        level 100
+        pokemon SPECIES_SLOWKING
+        item ITEM_LEFTOVERS
+        move MOVE_TRICK_ROOM
+        move MOVE_SCALD
+        move MOVE_SLACK_OFF
         move MOVE_PSYCHIC
+        ability ABILITY_REGENERATOR
         ballseal 0
 
         // mon 1
         ivs 250
         abilityslot 0
-        level 60
-        pokemon SPECIES_JYNX
-        item ITEM_NONE
-        move MOVE_FAKE_TEARS
-        move MOVE_LOVELY_KISS
-        move MOVE_BLIZZARD
-        move MOVE_DREAM_EATER
+        level 100
+        pokemon SPECIES_HATTERENE
+        item ITEM_LIFE_ORB
+        move MOVE_TRICK_ROOM
+        move MOVE_PSYCHIC
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_MYSTICAL_FIRE
+        ability ABILITY_MAGIC_BOUNCE
         ballseal 0
 
         // mon 2
         ivs 250
         abilityslot 0
-        level 59
-        pokemon SPECIES_GRUMPIG
-        item ITEM_NONE
-        move MOVE_CONFUSE_RAY
-        move MOVE_SIGNAL_BEAM
-        move MOVE_POWER_GEM
+        level 100
+        pokemon SPECIES_GARDEVOIR
+        item ITEM_CHOICE_SPECS
+        move MOVE_MOONBLAST
+        move MOVE_THUNDERBOLT
+        move MOVE_SHADOW_BALL
         move MOVE_PSYCHIC
+        ability ABILITY_TRACE
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 32
-        level 60
-        pokemon SPECIES_SLOWBRO
-        item ITEM_NONE
-        move MOVE_CURSE
-        move MOVE_AMNESIA
-        move MOVE_BODY_SLAM
+        level 100
+        pokemon SPECIES_GALLADE
+        item ITEM_LIFE_ORB
+        move MOVE_SWORDS_DANCE
+        move MOVE_PSYCHO_CUT
+        move MOVE_SACRED_SWORD
         move MOVE_PSYCHIC
+        ability ABILITY_SHARPNESS
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 0
-        level 61
-        pokemon SPECIES_GARDEVOIR
-        item ITEM_NONE
-        move MOVE_FOCUS_BLAST
-        move MOVE_CHARGE_BEAM
-        move MOVE_CALM_MIND
+        level 100
+        pokemon SPECIES_BRONZONG
+        item ITEM_OCCA_BERRY
+        move MOVE_STEALTH_ROCK
+        move MOVE_GYRO_BALL
+        move MOVE_EARTHQUAKE
         move MOVE_PSYCHIC
+        ability ABILITY_HEATPROOF
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 32
-        level 62
-        pokemon SPECIES_XATU
-        item ITEM_SITRUS_BERRY
-        move MOVE_QUICK_ATTACK
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
+        level 100
+        pokemon SPECIES_CRESSELIA
+        item ITEM_LEFTOVERS
+        move MOVE_CALM_MIND
+        move MOVE_MOONLIGHT
+        move MOVE_ICE_BEAM
         move MOVE_PSYCHIC
+        ability ABILITY_LEVITATE
         ballseal 0
     endparty
 
 trainerdata 703, "Koga"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_ELITE_FOUR_KOGA
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26992,78 +27004,84 @@ trainerdata 703, "Koga"
         // mon 0
         ivs 250
         abilityslot 32
-        level 61
-        pokemon SPECIES_SKUNTANK
-        item ITEM_NONE
-        move MOVE_SUCKER_PUNCH
-        move MOVE_DIG
-        move MOVE_TOXIC
-        move MOVE_EXPLOSION
+        level 100
+        pokemon SPECIES_TOXAPEX
+        item ITEM_BLACK_SLUDGE
+        move MOVE_BANEFUL_BUNKER
+        move MOVE_SCALD
+        move MOVE_TOXIC_SPIKES
+        move MOVE_RECOVER
+        ability ABILITY_REGENERATOR
         ballseal 0
 
         // mon 1
         ivs 250
         abilityslot 0
-        level 63
-        pokemon SPECIES_VENOMOTH
-        item ITEM_NONE
-        move MOVE_DOUBLE_TEAM
-        move MOVE_BATON_PASS
-        move MOVE_PSYCHIC
-        move MOVE_SILVER_WIND
+        level 100
+        pokemon SPECIES_SCOLIPEDE
+        item ITEM_FOCUS_SASH
+        move MOVE_SPIKES
+        move MOVE_TOXIC_SPIKES
+        move MOVE_MEGAHORN
+        move MOVE_ENDEAVOR
+        ability ABILITY_SPEED_BOOST
         ballseal 0
 
         // mon 2
         ivs 250
         abilityslot 32
-        level 60
-        pokemon SPECIES_TOXICROAK
-        item ITEM_NONE
-        move MOVE_CROSS_CHOP
-        move MOVE_X_SCISSOR
-        move MOVE_SWAGGER
-        move MOVE_GUNK_SHOT
+        level 100
+        pokemon SPECIES_GENGAR
+        item ITEM_LIFE_ORB
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_DESTINY_BOND
+        move MOVE_ENERGY_BALL
+        ability ABILITY_CURSED_BODY
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 32
-        level 62
-        pokemon SPECIES_MUK
+        level 100
+        pokemon SPECIES_OVERQWIL
         item ITEM_BLACK_SLUDGE
-        move MOVE_MINIMIZE
-        move MOVE_SCREECH
-        move MOVE_SWAGGER
-        move MOVE_TOXIC
+        move MOVE_BARB_BARRAGE
+        move MOVE_AQUA_JET
+        move MOVE_TAUNT
+        move MOVE_TOXIC_SPIKES
+        ability ABILITY_INTIMIDATE
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 0
-        level 64
+        level 100
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
-        move MOVE_TOXIC
-        move MOVE_MEAN_LOOK
-        move MOVE_FLY
-        move MOVE_CROSS_POISON
+        item ITEM_HEAVY_DUTY_BOOTS
+        move MOVE_BRAVE_BIRD
+        move MOVE_U_TURN
+        move MOVE_TAUNT
+        move MOVE_ROOST
+        ability
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 32
-        level 62
-        pokemon SPECIES_SWALOT
-        item ITEM_LEFTOVERS
-        move MOVE_YAWN
-        move MOVE_AMNESIA
-        move MOVE_PAIN_SPLIT
-        move MOVE_SLUDGE_BOMB
+        level 100
+        pokemon SPECIES_NIHILEGO
+        item ITEM_POWER_HERB
+        move MOVE_METEOR_BEAM
+        move MOVE_SLUDGE_WAVE
+        move MOVE_THUNDERBOLT
+        move MOVE_STEALTH_ROCK
+        ability ABILITY_BEAST_BOOST
         ballseal 0
     endparty
 
 trainerdata 704, "Bruno"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
     nummons 6
     item ITEM_FULL_RESTORE
@@ -27078,78 +27096,84 @@ trainerdata 704, "Bruno"
         // mon 0
         ivs 250
         abilityslot 32
-        level 62
-        pokemon SPECIES_HITMONTOP
-        item ITEM_NONE
-        move MOVE_COUNTER
-        move MOVE_QUICK_ATTACK
+        level 100
+        pokemon SPECIES_INFERNAPE
+        item ITEM_LIFE_ORB
+        move MOVE_FLARE_BLITZ
+        move MOVE_MACH_PUNCH
         move MOVE_CLOSE_COMBAT
-        move MOVE_EARTHQUAKE
+        move MOVE_U_TURN
+        ability ABILITY_IRON_FIST
         ballseal 0
 
         // mon 1
         ivs 250
         abilityslot 32
-        level 61
-        pokemon SPECIES_HITMONLEE
-        item ITEM_NONE
-        move MOVE_SWAGGER
-        move MOVE_CLOSE_COMBAT
-        move MOVE_REVERSAL
-        move MOVE_BLAZE_KICK
+        level 100
+        pokemon SPECIES_CONKELDURR
+        item ITEM_FLAME_ORB
+        move MOVE_DRAIN_PUNCH
+        move MOVE_BULK_UP
+        move MOVE_FACADE
+        move MOVE_STONE_EDGE
+        ability ABILITY_GUTS
         ballseal 0
 
         // mon 2
         ivs 250
         abilityslot 32
-        level 61
-        pokemon SPECIES_HITMONCHAN
-        item ITEM_NONE
-        move MOVE_SUBSTITUTE
+        level 100
+        pokemon SPECIES_LOPUNNY
+        item ITEM_LOPUNNITE
+        move MOVE_THUNDER_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_FIRE_PUNCH
         move MOVE_DRAIN_PUNCH
-        move MOVE_CLOSE_COMBAT
-        move MOVE_BULLET_PUNCH
+        ability ABILITY_CUTE_CHARM
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 0
-        level 62
-        pokemon SPECIES_HARIYAMA
-        item ITEM_SITRUS_BERRY
-        move MOVE_LOW_KICK
-        move MOVE_PAYBACK
-        move MOVE_BULLET_PUNCH
-        move MOVE_BULK_UP
+        level 100
+        pokemon SPECIES_HAWLUCHA
+        item ITEM_FLYING_GEM
+        move MOVE_ACROBATICS
+        move MOVE_SWORDS_DANCE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_TAUNT
+        ability ABILITY_UNBURDEN
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 32
-        level 64
-        pokemon SPECIES_MACHAMP
-        item ITEM_NONE
-        move MOVE_BULLET_PUNCH
-        move MOVE_FORESIGHT
-        move MOVE_STONE_EDGE
-        move MOVE_DYNAMIC_PUNCH
+        level 100
+        pokemon SPECIES_KELDEO
+        item ITEM_EXPERT_BELT
+        move MOVE_SECRET_SWORD
+        move MOVE_HYDRO_PUMP
+        move MOVE_ICY_WIND
+        move MOVE_CALM_MIND
+        ability ABILITY_JUSTIFIED
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 32
-        level 64
+        level 100
         pokemon SPECIES_LUCARIO
-        item ITEM_NONE
-        move MOVE_EXTREME_SPEED
+        item ITEM_FOCUS_SASH
+        move MOVE_SWORDS_DANCE
         move MOVE_CLOSE_COMBAT
-        move MOVE_COUNTER
-        move MOVE_IRON_TAIL
+        move MOVE_BULLET_PUNCH
+        move MOVE_CRUNCH
+        ability ABILITY_INNER_FOCUS
         ballseal 0
     endparty
 
 trainerdata 705, "Karen"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_ELITE_FOUR_KAREN
     nummons 6
     item ITEM_FULL_RESTORE
@@ -27164,73 +27188,78 @@ trainerdata 705, "Karen"
         // mon 0
         ivs 250
         abilityslot 0
-        level 62
-        pokemon SPECIES_WEAVILE
-        item ITEM_NONE
-        move MOVE_ICE_SHARD
-        move MOVE_NIGHT_SLASH
-        move MOVE_ICE_PUNCH
-        move MOVE_LOW_KICK
+        level 100
+        pokemon SPECIES_HYDREIGON
+        item ITEM_CHOICE_SCARF
+        move MOVE_DARK_PULSE
+        move MOVE_DRACO_METEOR
+        move MOVE_FLAMETHROWER
+        move MOVE_U_TURN
+        ability ABILITY_LEVITATE
         ballseal 0
 
         // mon 1
         ivs 250
         abilityslot 0
-        level 62
-        pokemon SPECIES_SPIRITOMB
-        item ITEM_NONE
-        move MOVE_CURSE
-        move MOVE_CONFUSE_RAY
-        move MOVE_PAIN_SPLIT
-        move MOVE_SUCKER_PUNCH
+        level 100
+        pokemon SPECIES_TYRANITAR
+        item ITEM_TYRANITARITE
+        move MOVE_CRUNCH
+        move MOVE_ROCK_SLIDE
+        move MOVE_STEALTH_ROCK
+        move MOVE_EARTHQUAKE
+        ability ABILITY_SAND_STREAM
         ballseal 0
 
         // mon 2
         ivs 250
         abilityslot 32
-        level 62
-        pokemon SPECIES_ABSOL
-        item ITEM_NONE
-        move MOVE_NIGHT_SLASH
-        move MOVE_PSYCHO_CUT
-        move MOVE_DETECT
-        move MOVE_PERISH_SONG
+        level 100
+        pokemon SPECIES_GRIMMSNARL
+        item ITEM_LIGHT_CLAY
+        move MOVE_REFLECT
+        move MOVE_LIGHT_SCREEN
+        move MOVE_SPIRIT_BREAK
+        move MOVE_THUNDER_WAVE
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 32
-        level 64
-        pokemon SPECIES_HONCHKROW
-        item ITEM_NONE
-        move MOVE_DRILL_PECK
-        move MOVE_WHIRLWIND
-        move MOVE_SUCKER_PUNCH
-        move MOVE_THUNDER_WAVE
+        level 100
+        pokemon SPECIES_ZOROARK
+        item ITEM_FOCUS_SASH
+        move MOVE_NASTY_PLOT
+        move MOVE_DARK_PULSE
+        move MOVE_BITTER_MALICE
+        move MOVE_FLAMETHROWER
+        ability ABILITY_DARK_AURA
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 0
-        level 63
-        pokemon SPECIES_HOUNDOOM
-        item ITEM_NONE
-        move MOVE_NASTY_PLOT
-        move MOVE_DARK_PULSE
-        move MOVE_FLAMETHROWER
-        move MOVE_SLUDGE_BOMB
+        level 100
+        pokemon SPECIES_KINGAMBIT
+        item ITEM_BLACK_GLASSES
+        move MOVE_SWORDS_DANCE
+        move MOVE_KOWTOW_CLEAVE
+        move MOVE_IRON_HEAD
+        move MOVE_SUCKER_PUNCH
+        ability ABILITY_SUPREME_OVERLORD
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 0
-        level 64
-        pokemon SPECIES_UMBREON
-        item ITEM_SITRUS_BERRY
-        move MOVE_CURSE
-        move MOVE_PAYBACK
-        move MOVE_CONFUSE_RAY
-        move MOVE_SUCKER_PUNCH
+        level 100
+        pokemon SPECIES_DARKRAI
+        item ITEM_LIFE_ORB
+        move MOVE_DARK_PULSE
+        move MOVE_NASTY_PLOT
+        move MOVE_SLUDGE_BOMB
+        move MOVE_HYPNOSIS
+        ability ABILITY_BAD_DREAMS
         ballseal 0
     endparty
 
