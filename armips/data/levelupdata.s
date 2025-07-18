@@ -3572,7 +3572,7 @@ levelup SPECIES_QUILAVA
     learnset MOVE_TACKLE, 1
     learnset MOVE_EMBER, 10
     learnset MOVE_QUICK_ATTACK, 13
-    learnset MOVE_FLAME_WHEEL, 20
+    learnset MOVE_FLAME_WHEEL, 19
     learnset MOVE_DEFENSE_CURL, 24
     learnset MOVE_EARTH_POWER, 31
     learnset MOVE_FLAME_CHARGE, 35
