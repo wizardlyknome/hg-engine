@@ -28229,7 +28229,7 @@ trainerdata 703, "Koga"
         move MOVE_U_TURN
         move MOVE_TAUNT
         move MOVE_ROOST
-        ability
+        ability ABILITY_INFILTRATOR
         ballseal 0
 
         // mon 5
@@ -28387,6 +28387,7 @@ trainerdata 705, "Karen"
         move MOVE_LIGHT_SCREEN
         move MOVE_SPIRIT_BREAK
         move MOVE_THUNDER_WAVE
+        ability ABILITY_PRANKSTER
         ballseal 0
 
         // mon 3
