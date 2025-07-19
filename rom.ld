@@ -744,3 +744,11 @@ OS_DisableInterrupts = 0x020D3A38;
 NNS_FndAllocFromExpHeapEx = 0x020B53A0;
 OS_RestoreInterrupts = 0x020D3A4C;
 sHeapInfo = 0x021D1584;
+
+/* spa functions */
+LoadOpenSPAToEmitter = 0x0201526C | 1;
+OpenSPAFileInHeap = 0x02015264 | 1;
+QueueEmitterWithCallback = 0x02015494 | 1;
+particleEmitCallback = 0x021E5C28 | 1;
+
+BattleSystem_GetTrainer = 0x0223A9F4 | 1;
