@@ -14953,7 +14953,7 @@ trainerdata 343, "Phoebe"
         move MOVE_KNOCK_OFF
         move MOVE_DESTINY_BOND
         move MOVE_PROTECT
-        ability ABILITY_FRISH
+        ability ABILITY_FRISK
         ballseal 0
 
         // mon 1
@@ -15065,7 +15065,7 @@ trainerdata 344, "Glacia"
         ivs 250
         abilityslot 0
         level 100
-        pokemon SPECIES_FORSMOTH
+        pokemon SPECIES_FROSMOTH
         item ITEM_HEAVY_DUTY_BOOTS
         move MOVE_QUIVER_DANCE
         move MOVE_ICE_BEAM
