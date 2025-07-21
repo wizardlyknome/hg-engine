@@ -740,7 +740,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_POISON_POINT, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDOKING, "It swings its big tail around during\nbattle. If its foe flinches, it will\ncharge with its sturdy body."
