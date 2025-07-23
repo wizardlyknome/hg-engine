@@ -11013,7 +11013,7 @@ trainerdata 260, "Red"
         // mon 0
         ivs 250
         abilityslot 0
-        level 107
+        level 100
         monwithform SPECIES_PIKACHU, 15
         item ITEM_LIGHT_BALL
         move MOVE_VOLT_TACKLE
@@ -11025,7 +11025,7 @@ trainerdata 260, "Red"
         // mon 1
         ivs 250
         abilityslot 32
-        level 107
+        level 100
         pokemon SPECIES_MEWTWO
         item ITEM_MEWTWONITE_Y
         move MOVE_AURA_SPHERE
@@ -11037,7 +11037,7 @@ trainerdata 260, "Red"
         // mon 2
         ivs 250
         abilityslot 32
-        level 107
+        level 100
         pokemon SPECIES_SNORLAX
         item ITEM_LEFTOVERS
         move MOVE_SHADOW_BALL
@@ -11049,7 +11049,7 @@ trainerdata 260, "Red"
         // mon 3
         ivs 250
         abilityslot 0
-        level 107
+        level 100
         pokemon SPECIES_VENUSAUR
         item ITEM_LIFE_ORB
         move MOVE_SLUDGE_BOMB
@@ -11061,7 +11061,7 @@ trainerdata 260, "Red"
         // mon 4
         ivs 250
         abilityslot 0
-        level 107
+        level 100
         pokemon SPECIES_CHARIZARD
         item ITEM_FOCUS_BAND
         move MOVE_FLARE_BLITZ
@@ -11073,7 +11073,7 @@ trainerdata 260, "Red"
         // mon 5
         ivs 250
         abilityslot 0
-        level 107
+        level 100
         pokemon SPECIES_BLASTOISE
         item ITEM_ASSAULT_VEST
         move MOVE_FOCUS_BLAST
