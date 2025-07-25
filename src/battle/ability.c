@@ -88,12 +88,12 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     }
 
     // 02252FB0
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SOUNDPROOF) == TRUE)
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SOUNDPROOF) == TRUE
+     && attacker != defender
+     && (sp->moveTbl[sp->current_move_index].target & (RANGE_USER)) == 0
+     && IsMoveSoundBased(sp->current_move_index))
     {
-        if (IsMoveSoundBased(sp->current_move_index))
-        {
-            scriptnum = SUB_SEQ_SOUNDPROOF;
-        }
+        scriptnum = SUB_SEQ_SOUNDPROOF;
     }
 
     // 02252FDC
@@ -122,6 +122,19 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     {
         if ((movetype == TYPE_GRASS) && (attacker != defender)) {
             scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
+        }
+    }
+
+    // Handle Wind Rider
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WIND_RIDER) == TRUE)
+    {
+        if ((IsMoveWindMove(sp->current_move_index)) && (attacker != defender)) {
+            scriptnum = SUB_SEQ_HANDLE_WIND_RIDER;
+            sp->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_ATTACK_UP;
+            sp->addeffect_type = ADD_STATUS_ABILITY;
+            sp->state_client = defender;
+            sp->battlerIdTemp = defender;
+            //scriptnum = SUB_SEQ_BOOST_STATS;
         }
     }
 
