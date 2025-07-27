@@ -10169,7 +10169,7 @@ mondata SPECIES_DIALGA, "Dialga"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_DAZZLING
+    abilities ABILITY_LEVITATE, ABILITY_TELEPATHY
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_DIALGA, "This Pokémon completely controls the\nflow of time. It uses its power to travel\nat will through the past and future."
@@ -24766,7 +24766,7 @@ mondata SPECIES_KYUREM_WHITE, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_TURBOBLAZE, ABILITY_NONE
+    abilities ABILITY_TURBOBLAZE, ABILITY_CONTRARY
     runchance 0
     colorflip BODY_COLOR_GRAY, 1
 
@@ -24782,7 +24782,7 @@ mondata SPECIES_KYUREM_BLACK, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_TERAVOLT, ABILITY_NONE
+    abilities ABILITY_TERAVOLT, ABILITY_CONTRARY
     runchance 0
     colorflip BODY_COLOR_GRAY, 1
 
