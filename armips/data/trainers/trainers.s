@@ -28631,7 +28631,7 @@ trainerdata 687, "Shaun"
     battletype SINGLE_BATTLE
     endentry
 
-    party 688
+    party 687
         // mon 0
         ivs 0
         abilityslot 0
