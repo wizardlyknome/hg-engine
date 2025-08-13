@@ -28639,21 +28639,21 @@ trainerdata 687, "Shaun"
         pokemon SPECIES_HAKAMO_O
         ballseal 0
 
-        // mon 0
+        // mon 1
         ivs 0
         abilityslot 0
         level 41
         pokemon SPECIES_DRAKLOAK
         ballseal 0
 
-        // mon 0
+        // mon 2
         ivs 0
         abilityslot 0
         level 42
         pokemon SPECIES_TURTONATOR
         ballseal 0
 
-        // mon 0
+        // mon 3
         ivs 0
         abilityslot 0
         level 43
