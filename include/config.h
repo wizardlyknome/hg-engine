@@ -158,6 +158,9 @@
 // REUSABLE_TMS will make TMs infinite and hide the quantity number.
 #define REUSABLE_TMS
 
+// MART_EXPANSION allows for adding and modifying items to the mart inventories
+#define MART_EXPANSION
+
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
 #define STATIC_HP_BAR
 
