@@ -77,6 +77,7 @@ arm9 PokemonBattleMusic 080518D4
 
 # camouflage type table
 0012 sCamouflageTypeTable 0800CB60
+<<<<<<< HEAD
 
 #ifdef MART_EXPANSION
 arm9 sCherrygroveCityMart 0210FA3C
@@ -120,3 +121,5 @@ arm9 sPokeathlonShopThursday 0210FA30
 arm9 sPokeathlonShopFriday 0210FA34
 arm9 sPokeathlonShopSaturday 0210FA38
 #endif
+=======
+>>>>>>> parent of 2ba4665a (pokemart expansion)

@@ -753,6 +753,3 @@ particleEmitCallback = 0x021E5C28 | 1;
 
 BattleSystem_GetTrainer = 0x0223A9F4 | 1;
 PartyMenu_PrintMessageOnWindow32 = 0x0207DAC4 | 1;
-
-PlayerProfile_TestBadgeFlag = 0x02028F98 | 1;
-InitMartUI = 0x02256D34 | 1;
