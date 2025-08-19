@@ -26993,7 +26993,7 @@ trainerdata 637, "Hillary"
 trainerdata 638, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEACHER
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -27035,7 +27035,7 @@ trainerdata 638, "Hillary"
 trainerdata 639, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEACHER
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -27353,7 +27353,7 @@ trainerdata 646, "Josh"
 trainerdata 647, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -27395,7 +27395,7 @@ trainerdata 647, "Josh"
 trainerdata 648, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -27514,7 +27514,7 @@ trainerdata 650, "Torin"
 trainerdata 651, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SCHOOL_KID_M
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -27545,7 +27545,7 @@ trainerdata 651, "Torin"
         pokemon SPECIES_CROBAT
         ballseal 0
 
-        // mon 2
+        // mon 3
         ivs 0
         abilityslot 0
         level 99
