@@ -78,7 +78,6 @@ armips/asm/offset.s
 .vs/
 .vscode/
 rom_gen*.ld
-.idea/
 
 sdat/*
 *.swav
