@@ -158,15 +158,6 @@
 // REUSABLE_TMS will make TMs infinite and hide the quantity number.
 #define REUSABLE_TMS
 
-<<<<<<< HEAD
-// MART_EXPANSION allows for adding and modifying items to the mart inventories
-#define MART_EXPANSION
-
-// POKEATHLON_EXPANSION allows for adding and modifying items to the Pokéathlon shop inventories
-//#define POKEATHLON_SHOP_EXPANSION
-
-=======
->>>>>>> parent of 2ba4665a (pokemart expansion)
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
 #define STATIC_HP_BAR
 
