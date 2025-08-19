@@ -442,6 +442,14 @@
 #define NUM_TMS (ITEM_TM92 - ITEM_TM01 + 1)
 #define NUM_HMS (ITEM_HM08 - ITEM_HM01 + 1)
 
+#define IS_ITEM_VANILLA_HM(item)   ((item >= ITEM_HM01 && item <= ITEM_HM08))
+#define IS_ITEM_VANILLA_TM(item)   ((item >= ITEM_TM01 && item <= ITEM_TM92))
+#define IS_ITEM_EXPANSION_TM(item) ((item < 0)) // stub TODO zebben once we have item ids
+#define IS_ITEM_EXPANSION_HM(item) ((item < 0)) // stub
+#define IS_ITEM_TM(item)           ((IS_ITEM_VANILLA_TM(item) || IS_ITEM_EXPANSION_TM(item)))
+#define IS_ITEM_HM(item)           ((IS_ITEM_VANILLA_HM(item) || IS_ITEM_EXPANSION_HM(item)))
+#define IS_ITEM_TR(item)           ((item < 0)) // stub
+
 #define ITEM_EXPLORER_KIT    428
 #define ITEM_LOOT_SACK       429
 #define ITEM_RULE_BOOK       430
@@ -742,6 +750,9 @@
 #define ITEM_DARK_GEM           (ITEM_PIXIE_PLATE + 115)
 #define ITEM_FAIRY_GEM          (ITEM_PIXIE_PLATE + 116)
 
+//Gems
+#define IS_ITEM_GEM(item) (item >= ITEM_NORMAL_GEM && item <= ITEM_FAIRY_GEM)
+
 //Memories
 #define IS_ITEM_MEMORY(item) (item >= ITEM_FIGHTING_MEMORY && item <= ITEM_FAIRY_MEMORY)
 
@@ -871,7 +882,6 @@
 
 #define MAX_TOTAL_ITEM_NUM ITEM_METAL_ALLOY
 #define ITEM_INFINITE_CANDY     (MAX_BASE_ITEM_NUM + 1)
-
 
 
 

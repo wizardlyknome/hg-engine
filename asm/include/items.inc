@@ -850,5 +850,4 @@
 
 .equ ITEM_INFINITE_CANDY, (MAX_BASE_ITEM_NUM + 1)
 
-
 .endif
