@@ -27,8 +27,13 @@ Obtained the {STRVAR_1 8, 0, 0}!
                          
 Too bad!\nThe Bag is full...
 <<<<<<< HEAD
+<<<<<<< HEAD
 {STRVAR_1 3, 0, 0} obtained\n{COLOR 2}{STRVAR_1 8, 1, 0}{COLOR 0}!
 {STRVAR_1 3, 0, 0} obtained\n{COLOR 1}{STRVAR_1 8, 1, 0}{COLOR 0}!
+=======
+{STRVAR_1 3, 0, 0} obtained\nthe {COLOR 2}{STRVAR_1 8, 1, 0}{COLOR 0}!
+{STRVAR_1 3, 0, 0} obtained\nthe {COLOR 1}{STRVAR_1 8, 1, 0}{COLOR 0}!
+>>>>>>> parent of a1bfcfeae (Merge remote-tracking branch 'upstream/zebben-patch-1')
 {STRVAR_1 3, 0, 0} put {STRVAR_1 8, 1, 0}\nin the {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0} Pocket.
 {STRVAR_1 3, 0, 0} put {STRVAR_1 8, 1, 0}\nin the {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0} Pocket.
 =======
