@@ -229,6 +229,7 @@
 
 
 #define NUM_MEGA_STONES 48 // includes the pixie plate
+<<<<<<< HEAD
 #define NUM_HMS         (ITEM_HM08 - ITEM_HM01 + 1) // intentionally do not include HM07_ORAS (Dive)
 =======
 #define ITEM_BRIGHT_POWDER   213
@@ -317,6 +318,9 @@
 #define ITEM_BIG_ROOT        296
 #define ITEM_CHOICE_SPECS    297
 >>>>>>> parent of e076e6064 (Merge branch 'sprite-dev')
+=======
+#define NUM_HMS         (ITEM_HM08 - ITEM_HM01 + 1)
+>>>>>>> parent of 6425745f6 (Merge remote-tracking branch 'upstream/move-dev')
 
 #define IS_ITEM_ARCEUS_PLATE(item) ((item >= ITEM_FLAME_PLATE && item <= ITEM_IRON_PLATE) || (item == ITEM_PIXIE_PLATE))
 
@@ -894,6 +898,7 @@
 #define IS_ITEM_MASK(item) (item >= ITEM_CORNERSTONE_MASK && item <= ITEM_HEARTHFLAME_MASK)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define IS_ITEM_TM(item) \
     ((item) == ITEM_TM00 || \
      ((item) >= ITEM_TM001 && (item) <= ITEM_TM092) || \
@@ -907,6 +912,18 @@
 
 #define IS_ITEM_TR(item) \
     ((item) >= ITEM_TR00 && (item) <= ITEM_TR99)
+=======
+#define IS_ITEM_VANILLA_HM(item)   (((item) >= ITEM_HM01 && item <= ITEM_HM08))
+#define IS_ITEM_VANILLA_TM(item)   (((item) >= ITEM_TM001 && item <= ITEM_TM092))
+#define IS_ITEM_EXPANSION_TM(item) (((item) == ITEM_TM00) || \
+                                    ((item) >= ITEM_TM093 && item <= ITEM_TM095) || \
+                                    ((item) >= ITEM_TM096 && item <= ITEM_TM100) || \
+                                    ((item) >= ITEM_TM100_SV && item <= ITEM_TM229))
+#define IS_ITEM_EXPANSION_HM(item) (((item) == ITEM_HM07_ORAS))
+#define IS_ITEM_TM(item)           ((IS_ITEM_VANILLA_TM(item) || IS_ITEM_EXPANSION_TM(item)))
+#define IS_ITEM_HM(item)           ((IS_ITEM_VANILLA_HM(item) || IS_ITEM_EXPANSION_HM(item)))
+#define IS_ITEM_TR(item)           (((item) >= ITEM_TR00 && (item) <= ITEM_TR99))
+>>>>>>> parent of 6425745f6 (Merge remote-tracking branch 'upstream/move-dev')
 
 enum ItemGeneration {
     CUSTOM,
@@ -943,8 +960,13 @@ enum ItemGeneration {
 
 #define NEW_ITEM_MAX ITEM_METAL_ALLOY
 
-#define BAG_SLOT_QUANTITY_MAX 999
-#define BAG_TMHM_QUANTITY_MAX 99
+#define BAG_SLOT_QUANTITY_MAX                    999
+
+#ifdef REUSABLE_TMS
+#define BAG_TMHM_QUANTITY_MAX                      1
+#else
+#define BAG_TMHM_QUANTITY_MAX                     99
+#endif
 
 #define POCKET_ITEMS        0
 #define POCKET_MEDICINE     1

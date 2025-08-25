@@ -49,8 +49,11 @@ void LONG_CALL BufferItemName(MessageFormat *msgFmt, u32 fieldno, u32 itemId);
 void LONG_CALL BufferItemNameWithIndefArticle(MessageFormat *msgFmt, u32 fieldno, u32 itemId);
 void LONG_CALL BufferItemNamePlural(MessageFormat *msgFmt, u32 fieldno, u32 itemId);
 void LONG_CALL BufferItemNameGiveItem(MessageFormat *msgFmt, u32 fieldno, u32 itemId);
+<<<<<<< HEAD:include/msgdata.h
 u8 LONG_CALL AddTextPrinterParameterizedWithColor(void *window, u8 fontId, String *string, u32 x, u32 y, u32 textSpeed, u32 color, void *callback);
 =======
 >>>>>>> parent of e076e6064 (Merge branch 'sprite-dev'):include/msgdata.h
+=======
+>>>>>>> parent of 6425745f6 (Merge remote-tracking branch 'upstream/move-dev'):include/message.h
 
 #endif //POKEHEARTGOLD_MSGDATA_H

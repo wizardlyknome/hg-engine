@@ -463,6 +463,7 @@ arm9 0207C3AC 00 00 00 00
 
 # expand heap 6 to 384 KB
 0015 021F93B6 65 22
+<<<<<<< HEAD
 
 # Bag_RenderItemSlotIcon fix SEL icons
 0015 021FF608 25 22
@@ -472,3 +473,5 @@ arm9 0207C3AC 00 00 00 00
 0015 021FE9F8 10 24
 =======
 >>>>>>> parent of e076e6064 (Merge branch 'sprite-dev')
+=======
+>>>>>>> parent of 6425745f6 (Merge remote-tracking branch 'upstream/move-dev')

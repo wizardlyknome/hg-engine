@@ -296,31 +296,12 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
 #ifdef DEBUG_CAPTURE_RATE_PERCENTAGES
     debug_printf("Step 5: Calculate the badge penalty\n");
 #endif
-
-    u8 badgeLevel[] = {
-        20,
-        25,
-        30,
-        35,
-        40,
-        45,
-        50,
-        55,
-        100,
-    };
-
     struct PlayerProfile *profile = Sav2_PlayerData_GetProfileAddr(SaveBlock2_get());
     badges = profile->johtoBadges + profile->kantoBadges;
-    badges = badges > 8 ? 8 : badges;
-    missingBadges = 0;
-    if (sp->battlemon[sp->defence_client].level + 5 > badgeLevel[badges]) {
-        for (int i = badges; i <= 8; i++) {
-            if (sp->battlemon[sp->defence_client].level > badgeLevel[i]) {
-                missingBadges++;
-            }
-        }
+    missingBadges = 8 - badges;
+    if (missingBadges < 0) {
+        missingBadges = 0;
     }
-    
 #ifdef DEBUG_CAPTURE_RATE_PERCENTAGES
     debug_printf("missingBadges: %d\n", missingBadges);
 #endif
