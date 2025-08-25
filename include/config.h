@@ -161,4 +161,9 @@
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
 #define STATIC_HP_BAR
 
+// UPDATED_MACHINE_MOVE_LABELS modernizes bag label rendering for machine moves (TMs, HMs, and TRs)
+// to more closely match later generations. Note that disabling this will break TMs > 99 rendering in the bag
+// Comment out the line below to disable this feature
+#define UPDATE_MACHINE_MOVE_LABELS
+
 #endif
