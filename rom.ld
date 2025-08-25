@@ -773,3 +773,5 @@ AddTextPrinterParameterizedWithColor = 0x020200FC | 1;
 sub_0200CDF0 = 0x0200CDF0 | 1;
 ov15_021FE9B0 = 0x021FE9B0 | 1;
 PrintItemSlotQuantity = 0x021FF66C | 1;
+sub_0200CDF0 = 0x0200CDF0 | 1;
+ov15_021FE9B0 = 0x021FE9B0 | 1;

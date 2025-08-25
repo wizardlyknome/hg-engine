@@ -2572,7 +2572,7 @@
 
 
 #define NUM_MEGA_STONES 48 // includes the pixie plate
-#define NUM_HMS         (ITEM_HM08 - ITEM_HM01 + 1) // intentionally do not include HM07_ORAS (Dive)
+#define NUM_HMS         (ITEM_HM08 - ITEM_HM01 + 1)
 
 #define ITEM_BRIGHT_POWDER   213
 #define ITEM_WHITE_HERB      214
