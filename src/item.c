@@ -1,13 +1,11 @@
 #include "../include/types.h"
 #include "../include/item.h"
-#include "../include/message.h"
 #include "../include/script.h"
 #include "../include/config.h"
 #include "../include/constants/file.h"
 #include "../include/constants/item.h"
-#include "../include/constants/moves.h"
 
-#define ITEM_DATA_MAX (ITEM_BRIARS_BOOK)
+#define ITEM_DATA_MAX (ITEM_ENIGMA_STONE)
 #define GFX_ITEM_DUMMY_ID ((MAX_TOTAL_ITEM_NUM+1) * 2 + 2)
 #define GFX_ITEM_RETURN_ID ((MAX_TOTAL_ITEM_NUM+2) * 2 + 4)
 #define NEW_ITEM_GFX (797)
@@ -509,17 +507,6 @@ void *GetItemArcData(u16 item, u16 type, u32 heap_id)
     return NULL;
 }
 
-void LONG_CALL GetItemDescIntoString(String *dest, u16 itemId, u16 heapId) {
-    enum ItemGeneration gen = ITEM_GENERATION(itemId);
-    u32 fileId = (gen == CUSTOM)
-        ? MSG_DATA_ITEM_DESCRIPTION_CUSTOM
-        : MSG_DATA_ITEM_FILE(MSG_DATA_ITEM_DESCRIPTION_GEN4, gen);
-    MsgData *msgData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, ARC_MSG_DATA, fileId, heapId);
-    u32 offset = ITEM_MSG_OFFSET(itemId);
-    ReadMsgDataIntoString(msgData, offset, dest);
-    DestroyMsgData(msgData);
-}
-
 void *LONG_CALL ItemDataTableLoad(int heapID)
 {
     int max;
@@ -611,7 +598,7 @@ void ItemMenuUseFunc_DNASplicers(struct ItemMenuUseData *data, const struct Item
 {
     FieldSystem *fieldSystem = data->taskManager->fieldSystem; // TaskManager_GetFieldSystem(data->taskManager);
     struct BagViewAppWork *env = data->taskManager->env; //TaskManager_GetEnvironment(data->taskManager);
-    env->atexit_TaskEnv = sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_DNA_SPLICERS_FUSE); // TODO: handle correct item
+    env->atexit_TaskEnv = sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_DNA_SPLICERS);
     sub_0203C8F0(env, 0x0203CA9C | 1);
 }
 
@@ -623,7 +610,7 @@ BOOL ItemFieldUseFunc_DNASplicers(struct ItemFieldUseData *data)
 
 void *_CreateDNASplicersWork(FieldSystem *fieldSystem)
 {
-    return sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_DNA_SPLICERS_FUSE); // TODO: handle correct item
+    return sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_DNA_SPLICERS);
 }
 
 void ItemMenuUseFunc_AbilityCapsule(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED)

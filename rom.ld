@@ -734,6 +734,7 @@ BattleMessage_BufferFlavorPreference = 0x0223CEA8 | 1;
 BattleMessage_BufferTrainerClass = 0x0223CEB4 | 1;
 BattleMessage_BufferTrainerName = 0x0223CECC | 1;
 BattleMessage_BufferBoxName = 0x0223CEE4 | 1;
+BufferItemNameWithIndefArticle = 0x0200C100 | 1;
 
 _GetNpcTradeName = 0x02259C1C | 1;
 MonSetTrainerMemo = 0x0208F260 | 1;
@@ -751,12 +752,8 @@ QueueEmitterWithCallback = 0x02015494 | 1;
 particleEmitCallback = 0x021E5C28 | 1;
 
 BattleSystem_GetTrainer = 0x0223A9F4 | 1;
-
-BattleController_EmitPlayFaintAnimation = 0x022635E8 | 1;
-InitFaintedWork = 0x022514C4 | 1;
-MaskOfFlagNo = 0x020726C0 | 1;
-
 PartyMenu_PrintMessageOnWindow32 = 0x0207DAC4 | 1;
+<<<<<<< HEAD
 
 SetStringAsPlaceholder = 0x0200BDF8 | 1;
 
@@ -770,3 +767,5 @@ ApplyMonMoodModifier = 0x02097F0C | 1;
 PartyMenu_GetCurrentMapSec = 0x020828EC | 1;
 AddTextPrinterParameterizedWithColor = 0x020200FC | 1;
 PrintItemSlotQuantity = 0x021FF66C | 1;
+=======
+>>>>>>> parent of e076e6064 (Merge branch 'sprite-dev')

@@ -356,6 +356,7 @@ void SortPocket(ITEM_SLOT *slots, u32 count) {
     }
 }
 
+<<<<<<< HEAD
 u8 GetTMHMPocketSortPrecedence(u16 itemId) {
     if (IS_ITEM_HM(itemId)) {
         return SORT_ORDER_HM;
@@ -380,6 +381,8 @@ void SortTMHMPocket(ITEM_SLOT *slots, u32 count) {
     }
 }
 
+=======
+>>>>>>> parent of e076e6064 (Merge branch 'sprite-dev')
 // returns a BAG_VIEW but we don't have to care about that
 void *CreateBagView(BAG_DATA *bag, const u8 *pockets, int heap_id) {
     int i;
